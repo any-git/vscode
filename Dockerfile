@@ -8,4 +8,4 @@ RUN apt install -y ./vscode.deb
 
 EXPOSE 8080
 
-CMD code serve-web --host 0.0.0.0 --port 8080
+CMD code serve-web --host 0.0.0.0 --port 8080 --without-connection-token
