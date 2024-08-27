@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apt update -y && apt install -y wget python3
+RUN apt update -y && apt install -y wget python3 gnupg2
 
 RUN wget -O vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
 
